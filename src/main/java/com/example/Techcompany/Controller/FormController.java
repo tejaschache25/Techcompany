@@ -25,5 +25,11 @@ public class FormController {
 	        return formFieldRepository.findAll();
 	    }
 
+	@GetMapping("/fields")
+	    public String hello()
+	 	{
+	        return "welcome";
+	    }
+
 
 }
